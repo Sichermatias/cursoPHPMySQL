@@ -15,6 +15,8 @@ $item1 = 'Presentacion';
 $item2 = 'Modalidad';
 $item3 = 'Objetivos';
 
+$precio = 16000;
+
 ?>
 
 <body>
