@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 
-	background: #F2D7D9;
+	background: #FEFBF6;
 }
 
 h1, h2 {
@@ -12,14 +12,15 @@ h1, h2 {
 	margin: .1rem;
 	text-align: center;
 	border-radius: .5rem;
-	background-color: #D3CEDF;
 }
 
 .menu {
 	display: inline-block;
+	background-color: #3D3C42;
 }
 
 .contenedor_cargar {
+	margin: 1rem;
 	display: inline-block;
 	justify-content: center;
 	align-items: center;
