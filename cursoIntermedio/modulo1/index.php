@@ -1,9 +1,9 @@
-<?php include('header.php')?>
+<?php include('header.php') ?>
 
 <body>
 	<section class="contenedor_cargar">
-		
-		<h2>Cargar Personaje</h2>
+
+		<h3 class="subtitulo">Cargar Personaje</h3>
 
 		<form action="cargar_personaje.php" method="POST" class="formulario">
 			<input type="text" name="nombre" required placeholder="Nombre">
@@ -18,12 +18,15 @@
 		</form>
 
 		<?php
-		if (isset($_GET['ok'])){
-			echo "<h3>Personaje cargado con exito</h3>";
+		if (isset($_GET['ok'])) {
+			echo "<h3 class=\"subtitulo\">Personaje cargado con exito</h3>";
 		}
 		?>
 
 	</section>
 
 </body>
+
+<?php include('footer.php') ?>
+
 </html>
