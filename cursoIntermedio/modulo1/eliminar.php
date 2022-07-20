@@ -1,4 +1,7 @@
 <?php 
+
+//Archivo usado en "mostrar.php" para eliminar el personaje seleccionado de la base de datos
+
 include("conexion.php");
 
 $id_personaje = $_GET['id'];

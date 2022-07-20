@@ -1,4 +1,8 @@
-<?php include('header.php') ?>
+<?php
+
+//Archivo index, utilizado para cargar personajes. Utiliza el archivo "cargar_personaje.php"
+
+include('header.php'); ?>
 
 <body>
 	<section class="contenedor_cargar">

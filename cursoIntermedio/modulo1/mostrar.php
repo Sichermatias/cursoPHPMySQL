@@ -1,4 +1,7 @@
-<?php include('header.php');?>
+<?php
+//Archivo en el cual se muestran los personajes cargado en la base de datos
+
+include('header.php');?>
 
 <section class="contenedor_personaje">
 	
@@ -19,7 +22,6 @@
 
 		<p> <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>">Eliminar</a> </p>
 
-		<p> <a href="editar_form.php?id=<?php echo $mostrar_datos['id']; ?>">Editar</a> </p>
 	</div>
 
 

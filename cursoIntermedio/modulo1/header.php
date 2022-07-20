@@ -17,6 +17,8 @@
 			<ul>
 				<li class="menu_item"><a href="index.php">Cargar Personaje</a></li>
 				<li class="menu_item"><a href="mostrar.php">Ver Personaje</a></li>
+				<li class="menu_item"><a href="agregar_comentarios.php">Agregar Comentarios</a></li>
+				<li class="menu_item"><a href="ver_comentarios.php">Ver Comentarios</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -106,14 +106,14 @@ img {
 .formulario input {
   text-align: center;
   padding: 0.2rem;
-  margin: 0.1rem;
+  margin: 0.3rem;
   background-color: aliceblue;
 }
 
 .formulario textarea {
   text-align: center;
   padding: 0.2rem;
-  margin: 0.1rem;
+  margin: 0.2rem;
   background-color: aliceblue;
 }
 /*
@@ -124,7 +124,7 @@ img {
 }
 */
 .caja_personajes {
-  display: block;
+  display: inline-block;
   width: 300px;
   background-color: #748DA6;
   margin: 1rem;
@@ -158,4 +158,26 @@ img {
   background-color: #748DA6;
   display: inline-block;
   margin: 20px;
+}
+
+.contenedor_comentario {
+  margin: 10px auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9cb4cc;
+  border-radius: .5rem;
+}
+
+.comentario_contenedor {
+  display: inline-block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 20px;
+  background-color: #748DA6;
+}
+
+.comentario_contenedor_item {
+  display: inline-block;
+  background-color: #748DA6;
 }

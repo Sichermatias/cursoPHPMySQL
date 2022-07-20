@@ -1,4 +1,7 @@
 <?php 
+
+//Este archivo es usado por "index.php" que toma los archivos del formulario y los agrega a la base de datosen la tabla 'personajes'
+
 $nombre_per = $_POST['nombre'];
 $apellido_per = $_POST['apellido'];
 $imagen_per = $_POST['imagen'];
