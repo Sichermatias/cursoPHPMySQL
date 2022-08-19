@@ -2,12 +2,12 @@
 include('header.php');
 ?>
     
-<section class="contenedor_cargar">
+<section class="contenedor_cargar_usuario">
 
 <h3 class="subtitulo">Ingreso</h3>
 
-<form action="validar.php" method="POST" class="formulario">
-    <input type="text" name="usuario" required placeholder="Usuario">
+<form action="validar_usuario.php" method="POST" class="formulario">
+    <input type="text" name="usuario_dni" required placeholder="Usuario o DNI">
     <br>
     <input type="password" name="clave" required placeholder="Contraseña">
     <br>

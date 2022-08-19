@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Entrega Final</title>
 </head>
 <body>
     <header>
-        <h1 class="titulo_principal">BA Drinks</h1>
+        <h1 class="titulo_principal"><a href="index.php">BA Drinks</a></h1>
         <nav class="botonera_principal">
             <ul>
                 <li class="botonera__item"><a href="mostrar_contenido.php">Mostrar Contenido</a></li>
