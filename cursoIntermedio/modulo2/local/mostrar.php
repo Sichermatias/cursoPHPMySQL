@@ -1,7 +1,8 @@
 <?php
 //Archivo en el cual se muestran los personajes cargado en la base de datos
 
-include('header.php');?>
+include('header.php');
+?>
 
 <section class="contenedor_personaje">
 	

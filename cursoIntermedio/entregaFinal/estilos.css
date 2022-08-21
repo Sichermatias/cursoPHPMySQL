@@ -1,0 +1,120 @@
+/*
+-------- Colores ---------
+#15100A negro
+#443927 marroncito
+#9FA194 gris
+#C7C9C6 blanco
+#BA5809 naranja opaco
+*/
+
+*{
+  background-color: #C7C9C6;
+}
+
+a:link, a:visited {
+  background-color: #9FA194;
+  color: #15100A;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9FA194;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #15100A;
+  color: #C7C9C6;
+}
+
+a:hover, a:active {
+  background-color: #15100A;
+  color: #C7C9C6;
+}
+
+.titulo_principal {
+  text-align: center;
+  background-color: #15100A;
+  margin: 0;
+  }
+
+.titulo_principal a {
+  color: #BA5809;
+  background-color: #15100A;
+  margin: 0;
+  text-align: center;
+}
+
+.contenedor_cargar_usuario{
+  display: inline-block;
+  background-color: #9FA194;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.formulario{
+  text-align: center;
+  background-color: #9FA194;
+}
+
+.formulario input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.subtitulo{
+  margin: 10px;
+  text-align: center;
+  background-color: #9FA194;
+}
+
+.caja_producto{
+  margin: 15px;
+  padding: 5px;
+  max-width: 70%;
+  display: block;
+  background-color: #9FA194;
+}
+
+.caja_producto h4{
+  margin: 10px;
+  background-color: #9FA194;
+}
+
+.caja_producto p{
+  margin: 10px;
+  background-color: #9FA194;
+}
+
+.contenedor_productos{
+  text-align: center;
+}
+
+.contenedor_productos h3{
+  display: block;
+  max-width: 80%;
+  text-align: center;
+}
+
+.contenedor_cargar_pedido {
+  background-color: #9FA194;
+}
