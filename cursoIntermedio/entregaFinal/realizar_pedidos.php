@@ -1,5 +1,8 @@
-<?php include('header.php')?>
+<?php
+include('header.php');
 
+if(isset($_SESSION['usuario'])){
+?>
 <section class="contenedor_cargar_pedido">
 
 <h3 class="subtitulo">Ingresar pedido</h3>
@@ -17,14 +20,18 @@
 </form>
 
 <?php
-if (isset($_GET['ok'])) {
-    echo "<h3 class=\"subtitulo\">El pedido fue realizado correctamente y esta en proceso!</h3>";
+    if (isset($_GET['ok'])) {
+        echo "<h3 class=\"subtitulo\">El pedido fue realizado correctamente y esta en proceso!</h3>";
+    }
+    if (isset($_GET['errorFormato'])) {
+        echo "<h3 class=\"subtitulo\">Imagen incorrecta. Verifique el tipo del archivo (debe ser jpg, jpeg o png)</h3>";
+    }
+    if (isset($_GET['errorTamanio'])) {
+        echo "<h3 class=\"subtitulo\">Imagen incorrecta. Verifique el tamaño del archivo (max 200kb)</h3>";
+    }
 }
-if (isset($_GET['errorFormato'])) {
-    echo "<h3 class=\"subtitulo\">Imagen incorrecta. Verifique el tipo del archivo (debe ser jpg, jpeg o png)</h3>";
-}
-if (isset($_GET['errorTamanio'])) {
-    echo "<h3 class=\"subtitulo\">Imagen incorrecta. Verifique el tamaño del archivo (max 200kb)</h3>";
+else{
+	header('Location: index.php?sesion');
 }
 ?>
 

@@ -5,7 +5,7 @@ session_start();
 if(isset($_SESSION['admin'])){
 	
 	include('header.php');
-	?>
+?>
 	
 	<body>
 		<section class="contenedor_cargar">
@@ -38,8 +38,8 @@ if(isset($_SESSION['admin'])){
 	</html>
 
 <?php
-
-}else{
+}
+else{
 	header('Location: index.php');
 }
 

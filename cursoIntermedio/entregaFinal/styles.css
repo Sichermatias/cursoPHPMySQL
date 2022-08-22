@@ -118,3 +118,27 @@ a:hover, a:active {
 .contenedor_cargar_pedido {
   background-color: #9FA194;
 }
+
+.contenedor_pedido{
+  background-color: #9FA194;
+  margin: 10px;
+}
+
+.caja_pedido{
+  background-color: #443927;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.caja_pedido p{
+  background-color: #443927;
+  color: #C7C9C6;
+  display: block;
+}
+
+.caja_pedido img{
+  border-radius: .5rem;
+  display: block;
+  max-width: 200px;
+}
