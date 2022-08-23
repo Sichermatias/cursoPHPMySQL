@@ -31,5 +31,6 @@ if(isset($_GET['sesion'])){
 
 </section>
 
-</body>
-</html>
+<?php
+include('footer.php');
+?>
